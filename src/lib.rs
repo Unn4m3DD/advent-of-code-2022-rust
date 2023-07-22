@@ -1,8 +1,8 @@
-mod day_one;
-pub use day_one::run as day_one;
-mod day_two;
-pub use day_two::run as day_two;
-mod day_three;
-pub use day_three::run as day_three;
-mod day_four;
-pub use day_four::run as day_four;
+mod day_01;
+pub use day_01::run as day_01;
+mod day_02;
+pub use day_02::run as day_02;
+mod day_03;
+pub use day_03::run as day_03;
+mod day_04;
+pub use day_04::run as day_04;

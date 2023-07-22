@@ -42,7 +42,7 @@ fn run_b(input: &str) {
 }
 
 pub fn run() {
-    let input = include_str!("../inputs/day-three.txt");
+    let input = include_str!("../inputs/day-03.txt");
     run_a(input);
     run_b(input);
 }

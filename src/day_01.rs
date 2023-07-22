@@ -1,5 +1,5 @@
 pub fn run() {
-    let input = include_str!("../inputs/day-one.txt");
+    let input = include_str!("../inputs/day-01.txt");
     let mut result = input
         .split("\n\n")
         .map(|e| e.lines().map(|e| e.parse::<i32>().unwrap()).sum::<i32>())
