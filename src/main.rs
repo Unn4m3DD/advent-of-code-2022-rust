@@ -2,8 +2,8 @@ use std::env;
 
 use advent_of_code_2022_rust::*;
 
-static FUNCTIONS: [fn(); 9] = [
-    day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09,
+static FUNCTIONS: [fn(); 10] = [
+    day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10,
 ];
 
 fn main() {
